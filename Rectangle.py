@@ -6,5 +6,5 @@ class Rectangle:
     self.width = max(0, w)
 
   def __str__(self):
-    string = "(x: {}, y: {}) width: {}, height: {}"
-    return string.format(self.x, self.y, self.width, self.height)
+    string = "(x: {self.x}, y: {self.y}) width: {self.width}, height: {self.height}"
+    return string
